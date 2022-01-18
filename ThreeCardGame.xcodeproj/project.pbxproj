@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BB43C9C2796A14300A20693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB43C9B2796A14300A20693 /* AppDelegate.swift */; };
+		5BB43C9E2796A14300A20693 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB43C9D2796A14300A20693 /* SceneDelegate.swift */; };
+		5BB43CA02796A14300A20693 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB43C9F2796A14300A20693 /* ViewController.swift */; };
+		5BB43CA32796A14300A20693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB43CA12796A14300A20693 /* Main.storyboard */; };
+		5BB43CA52796A15200A20693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB43CA42796A15200A20693 /* Assets.xcassets */; };
+		5BB43CA82796A15200A20693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB43CA62796A15200A20693 /* LaunchScreen.storyboard */; };
+		5BB43CB32796A15300A20693 /* ThreeCardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB43CB22796A15300A20693 /* ThreeCardGameTests.swift */; };
+		5BB43CBE2796A15300A20693 /* ThreeCardGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB43CBD2796A15300A20693 /* ThreeCardGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BB43CAF2796A15300A20693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB43C902796A14300A20693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB43C972796A14300A20693;
+			remoteInfo = ThreeCardGame;
+		};
+		5BB43CBA2796A15300A20693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB43C902796A14300A20693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB43C972796A14300A20693;
+			remoteInfo = ThreeCardGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BB43C982796A14300A20693 /* ThreeCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB43C9B2796A14300A20693 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BB43C9D2796A14300A20693 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5BB43C9F2796A14300A20693 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BB43CA22796A14300A20693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BB43CA42796A15200A20693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BB43CA72796A15200A20693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BB43CA92796A15200A20693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB43CAE2796A15300A20693 /* ThreeCardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeCardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB43CB22796A15300A20693 /* ThreeCardGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeCardGameTests.swift; sourceTree = "<group>"; };
+		5BB43CB42796A15300A20693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB43CB92796A15300A20693 /* ThreeCardGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeCardGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB43CBD2796A15300A20693 /* ThreeCardGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeCardGameUITests.swift; sourceTree = "<group>"; };
+		5BB43CBF2796A15300A20693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BB43C952796A14300A20693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB43CAB2796A15300A20693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB43CB62796A15300A20693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BB43C8F2796A14300A20693 = {
+			isa = PBXGroup;
+			children = (
+				5BB43C9A2796A14300A20693 /* ThreeCardGame */,
+				5BB43CB12796A15300A20693 /* ThreeCardGameTests */,
+				5BB43CBC2796A15300A20693 /* ThreeCardGameUITests */,
+				5BB43C992796A14300A20693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BB43C992796A14300A20693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BB43C982796A14300A20693 /* ThreeCardGame.app */,
+				5BB43CAE2796A15300A20693 /* ThreeCardGameTests.xctest */,
+				5BB43CB92796A15300A20693 /* ThreeCardGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BB43C9A2796A14300A20693 /* ThreeCardGame */ = {
+			isa = PBXGroup;
+			children = (
+				5BB43C9B2796A14300A20693 /* AppDelegate.swift */,
+				5BB43C9D2796A14300A20693 /* SceneDelegate.swift */,
+				5BB43C9F2796A14300A20693 /* ViewController.swift */,
+				5BB43CA12796A14300A20693 /* Main.storyboard */,
+				5BB43CA42796A15200A20693 /* Assets.xcassets */,
+				5BB43CA62796A15200A20693 /* LaunchScreen.storyboard */,
+				5BB43CA92796A15200A20693 /* Info.plist */,
+			);
+			path = ThreeCardGame;
+			sourceTree = "<group>";
+		};
+		5BB43CB12796A15300A20693 /* ThreeCardGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BB43CB22796A15300A20693 /* ThreeCardGameTests.swift */,
+				5BB43CB42796A15300A20693 /* Info.plist */,
+			);
+			path = ThreeCardGameTests;
+			sourceTree = "<group>";
+		};
+		5BB43CBC2796A15300A20693 /* ThreeCardGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BB43CBD2796A15300A20693 /* ThreeCardGameUITests.swift */,
+				5BB43CBF2796A15300A20693 /* Info.plist */,
+			);
+			path = ThreeCardGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BB43C972796A14300A20693 /* ThreeCardGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB43CC22796A15300A20693 /* Build configuration list for PBXNativeTarget "ThreeCardGame" */;
+			buildPhases = (
+				5BB43C942796A14300A20693 /* Sources */,
+				5BB43C952796A14300A20693 /* Frameworks */,
+				5BB43C962796A14300A20693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeCardGame;
+			productName = ThreeCardGame;
+			productReference = 5BB43C982796A14300A20693 /* ThreeCardGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BB43CAD2796A15300A20693 /* ThreeCardGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB43CC52796A15300A20693 /* Build configuration list for PBXNativeTarget "ThreeCardGameTests" */;
+			buildPhases = (
+				5BB43CAA2796A15300A20693 /* Sources */,
+				5BB43CAB2796A15300A20693 /* Frameworks */,
+				5BB43CAC2796A15300A20693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB43CB02796A15300A20693 /* PBXTargetDependency */,
+			);
+			name = ThreeCardGameTests;
+			productName = ThreeCardGameTests;
+			productReference = 5BB43CAE2796A15300A20693 /* ThreeCardGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BB43CB82796A15300A20693 /* ThreeCardGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB43CC82796A15300A20693 /* Build configuration list for PBXNativeTarget "ThreeCardGameUITests" */;
+			buildPhases = (
+				5BB43CB52796A15300A20693 /* Sources */,
+				5BB43CB62796A15300A20693 /* Frameworks */,
+				5BB43CB72796A15300A20693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB43CBB2796A15300A20693 /* PBXTargetDependency */,
+			);
+			name = ThreeCardGameUITests;
+			productName = ThreeCardGameUITests;
+			productReference = 5BB43CB92796A15300A20693 /* ThreeCardGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BB43C902796A14300A20693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5BB43C972796A14300A20693 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					5BB43CAD2796A15300A20693 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5BB43C972796A14300A20693;
+					};
+					5BB43CB82796A15300A20693 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5BB43C972796A14300A20693;
+					};
+				};
+			};
+			buildConfigurationList = 5BB43C932796A14300A20693 /* Build configuration list for PBXProject "ThreeCardGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BB43C8F2796A14300A20693;
+			productRefGroup = 5BB43C992796A14300A20693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BB43C972796A14300A20693 /* ThreeCardGame */,
+				5BB43CAD2796A15300A20693 /* ThreeCardGameTests */,
+				5BB43CB82796A15300A20693 /* ThreeCardGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BB43C962796A14300A20693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB43CA82796A15200A20693 /* LaunchScreen.storyboard in Resources */,
+				5BB43CA52796A15200A20693 /* Assets.xcassets in Resources */,
+				5BB43CA32796A14300A20693 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB43CAC2796A15300A20693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB43CB72796A15300A20693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BB43C942796A14300A20693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB43CA02796A14300A20693 /* ViewController.swift in Sources */,
+				5BB43C9C2796A14300A20693 /* AppDelegate.swift in Sources */,
+				5BB43C9E2796A14300A20693 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB43CAA2796A15300A20693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB43CB32796A15300A20693 /* ThreeCardGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB43CB52796A15300A20693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB43CBE2796A15300A20693 /* ThreeCardGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BB43CB02796A15300A20693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BB43C972796A14300A20693 /* ThreeCardGame */;
+			targetProxy = 5BB43CAF2796A15300A20693 /* PBXContainerItemProxy */;
+		};
+		5BB43CBB2796A15300A20693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BB43C972796A14300A20693 /* ThreeCardGame */;
+			targetProxy = 5BB43CBA2796A15300A20693 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BB43CA12796A14300A20693 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BB43CA22796A14300A20693 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BB43CA62796A15200A20693 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BB43CA72796A15200A20693 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BB43CC02796A15300A20693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BB43CC12796A15300A20693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BB43CC32796A15300A20693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreeCardGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ThreeCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BB43CC42796A15300A20693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreeCardGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ThreeCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BB43CC62796A15300A20693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreeCardGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ThreeCardGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeCardGame.app/ThreeCardGame";
+			};
+			name = Debug;
+		};
+		5BB43CC72796A15300A20693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreeCardGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ThreeCardGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeCardGame.app/ThreeCardGame";
+			};
+			name = Release;
+		};
+		5BB43CC92796A15300A20693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreeCardGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ThreeCardGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreeCardGame;
+			};
+			name = Debug;
+		};
+		5BB43CCA2796A15300A20693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreeCardGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ThreeCardGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreeCardGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BB43C932796A14300A20693 /* Build configuration list for PBXProject "ThreeCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB43CC02796A15300A20693 /* Debug */,
+				5BB43CC12796A15300A20693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB43CC22796A15300A20693 /* Build configuration list for PBXNativeTarget "ThreeCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB43CC32796A15300A20693 /* Debug */,
+				5BB43CC42796A15300A20693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB43CC52796A15300A20693 /* Build configuration list for PBXNativeTarget "ThreeCardGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB43CC62796A15300A20693 /* Debug */,
+				5BB43CC72796A15300A20693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB43CC82796A15300A20693 /* Build configuration list for PBXNativeTarget "ThreeCardGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB43CC92796A15300A20693 /* Debug */,
+				5BB43CCA2796A15300A20693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BB43C902796A14300A20693 /* Project object */;
+}
