@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Guess The  Heart"; ObjectID = "Frg-8f-TwY"; */
+"Frg-8f-TwY.text" = "Guess The  Heart";
+
+/* Class = "UILabel"; text = "Score:"; ObjectID = "IAQ-3Z-uNF"; */
+"IAQ-3Z-uNF.text" = "Score:";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "bKO-HL-CEv"; */
+"bKO-HL-CEv.text" = "10";
+
+/* Class = "UILabel"; text = "-1"; ObjectID = "vEH-sJ-AwZ"; */
+"vEH-sJ-AwZ.text" = "-1";
+
+/* Class = "UIButton"; normalTitle = "Start Now"; ObjectID = "wLA-bM-XuH"; */
+"wLA-bM-XuH.normalTitle" = "Start Now";

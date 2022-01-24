@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B16292E279B22DA00491A7B /* GameMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B16292D279B22DA00491A7B /* GameMenuViewController.swift */; };
+		5B162970279B2D0000491A7B /* Ultra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B16296F279B2D0000491A7B /* Ultra-Regular.ttf */; };
+		5B162978279B2D7600491A7B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BB43CA92796A15200A20693 /* Info.plist */; };
+		5B16297C279B2D7700491A7B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BB43CA92796A15200A20693 /* Info.plist */; };
+		5B174DFF279B4DB200778270 /* TitanOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B174DFE279B4DB200778270 /* TitanOne-Regular.ttf */; };
 		5BB43C9C2796A14300A20693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB43C9B2796A14300A20693 /* AppDelegate.swift */; };
 		5BB43C9E2796A14300A20693 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB43C9D2796A14300A20693 /* SceneDelegate.swift */; };
 		5BB43CA02796A14300A20693 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB43C9F2796A14300A20693 /* ViewController.swift */; };
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B16292D279B22DA00491A7B /* GameMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMenuViewController.swift; sourceTree = "<group>"; };
+		5B16296F279B2D0000491A7B /* Ultra-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ultra-Regular.ttf"; path = "ThreeCardGame/fonts/Ultra-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		5B174DFE279B4DB200778270 /* TitanOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitanOne-Regular.ttf"; sourceTree = "<group>"; };
 		5BB43C982796A14300A20693 /* ThreeCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB43C9B2796A14300A20693 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BB43C9D2796A14300A20693 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B162932279B25F700491A7B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5B174DFE279B4DB200778270 /* TitanOne-Regular.ttf */,
+				5B16296F279B2D0000491A7B /* Ultra-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		5BB43C8F2796A14300A20693 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +116,7 @@
 		5BB43C9A2796A14300A20693 /* ThreeCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				5B162932279B25F700491A7B /* fonts */,
 				5BB43C9B2796A14300A20693 /* AppDelegate.swift */,
 				5BB43C9D2796A14300A20693 /* SceneDelegate.swift */,
 				5BB43C9F2796A14300A20693 /* ViewController.swift */,
@@ -106,6 +124,7 @@
 				5BB43CA42796A15200A20693 /* Assets.xcassets */,
 				5BB43CA62796A15200A20693 /* LaunchScreen.storyboard */,
 				5BB43CA92796A15200A20693 /* Info.plist */,
+				5B16292D279B22DA00491A7B /* GameMenuViewController.swift */,
 			);
 			path = ThreeCardGame;
 			sourceTree = "<group>";
@@ -231,9 +250,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B174DFF279B4DB200778270 /* TitanOne-Regular.ttf in Resources */,
 				5BB43CA82796A15200A20693 /* LaunchScreen.storyboard in Resources */,
 				5BB43CA52796A15200A20693 /* Assets.xcassets in Resources */,
 				5BB43CA32796A14300A20693 /* Main.storyboard in Resources */,
+				5B162970279B2D0000491A7B /* Ultra-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B162978279B2D7600491A7B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B16297C279B2D7700491A7B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BB43CA02796A14300A20693 /* ViewController.swift in Sources */,
+				5B16292E279B22DA00491A7B /* GameMenuViewController.swift in Sources */,
 				5BB43C9C2796A14300A20693 /* AppDelegate.swift in Sources */,
 				5BB43C9E2796A14300A20693 /* SceneDelegate.swift in Sources */,
 			);
