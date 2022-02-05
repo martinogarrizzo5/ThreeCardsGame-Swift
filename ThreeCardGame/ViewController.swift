@@ -47,7 +47,6 @@ class ViewController: UIViewController {
 		dialogView.layer.cornerRadius = 25
 		dialogView.isHidden = true
 		restartButton.layer.cornerRadius = 36
-		// set border radius of cards
 		for card in cardsButtons {
 			card.layer.cornerRadius = 10
 		}
@@ -98,6 +97,10 @@ class ViewController: UIViewController {
 			} else {
 				cardsButtons[i].setImage(spadesAceImage, for: .normal)
 			}
+			
+			// card reveal animation
+			UIView.transition(with: cardsButtons[i], duration: 0.3, options: .transitionFlipFromLeft, animations: nil
+			)
 		}
 	}
 	
@@ -119,27 +122,22 @@ class ViewController: UIViewController {
 		}
 	}
 	
-	func restoreCards() -> Void {
+	func restoreCards() {
 		for card in cardsButtons {
-			// card disappear
-			card.alpha = 0
-			
 			// cover the card
 			card.setImage(backCardImage, for: .normal)
 			
-			// card reappear
-			UIView.animate(withDuration: 0.3, animations: { card.alpha = 1 }, completion: { finished in
-				self.restoreUserInteraction()
+			// cover animation
+			UIView.transition(with: card, duration: 0.3, options: .transitionFlipFromLeft, animations: nil, completion: {finished in self.restoreUserInteraction()
 			})
-			
 		}
 	}
 	
-	func playNewRound() -> Void {
+	func playNewRound() {
 		restoreCards()
 	}
 	
-	func restoreUserInteraction() -> Void {
+	func restoreUserInteraction() {
 		isCardClicked = false;
 	}
 
