@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		5B16292E279B22DA00491A7B /* GameMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B16292D279B22DA00491A7B /* GameMenuViewController.swift */; };
 		5B162970279B2D0000491A7B /* Ultra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B16296F279B2D0000491A7B /* Ultra-Regular.ttf */; };
-		5B162978279B2D7600491A7B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BB43CA92796A15200A20693 /* Info.plist */; };
-		5B16297C279B2D7700491A7B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BB43CA92796A15200A20693 /* Info.plist */; };
 		5B174DFF279B4DB200778270 /* TitanOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B174DFE279B4DB200778270 /* TitanOne-Regular.ttf */; };
 		5BB43C9C2796A14300A20693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB43C9B2796A14300A20693 /* AppDelegate.swift */; };
 		5BB43C9E2796A14300A20693 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB43C9D2796A14300A20693 /* SceneDelegate.swift */; };
@@ -18,26 +16,7 @@
 		5BB43CA32796A14300A20693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB43CA12796A14300A20693 /* Main.storyboard */; };
 		5BB43CA52796A15200A20693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB43CA42796A15200A20693 /* Assets.xcassets */; };
 		5BB43CA82796A15200A20693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB43CA62796A15200A20693 /* LaunchScreen.storyboard */; };
-		5BB43CB32796A15300A20693 /* ThreeCardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB43CB22796A15300A20693 /* ThreeCardGameTests.swift */; };
-		5BB43CBE2796A15300A20693 /* ThreeCardGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB43CBD2796A15300A20693 /* ThreeCardGameUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5BB43CAF2796A15300A20693 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5BB43C902796A14300A20693 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5BB43C972796A14300A20693;
-			remoteInfo = ThreeCardGame;
-		};
-		5BB43CBA2796A15300A20693 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5BB43C902796A14300A20693 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5BB43C972796A14300A20693;
-			remoteInfo = ThreeCardGame;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5B16292D279B22DA00491A7B /* GameMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMenuViewController.swift; sourceTree = "<group>"; };
@@ -51,30 +30,10 @@
 		5BB43CA42796A15200A20693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BB43CA72796A15200A20693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BB43CA92796A15200A20693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BB43CAE2796A15300A20693 /* ThreeCardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeCardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BB43CB22796A15300A20693 /* ThreeCardGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeCardGameTests.swift; sourceTree = "<group>"; };
-		5BB43CB42796A15300A20693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BB43CB92796A15300A20693 /* ThreeCardGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeCardGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BB43CBD2796A15300A20693 /* ThreeCardGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeCardGameUITests.swift; sourceTree = "<group>"; };
-		5BB43CBF2796A15300A20693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5BB43C952796A14300A20693 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BB43CAB2796A15300A20693 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BB43CB62796A15300A20693 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -97,8 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				5BB43C9A2796A14300A20693 /* ThreeCardGame */,
-				5BB43CB12796A15300A20693 /* ThreeCardGameTests */,
-				5BB43CBC2796A15300A20693 /* ThreeCardGameUITests */,
 				5BB43C992796A14300A20693 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,8 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				5BB43C982796A14300A20693 /* ThreeCardGame.app */,
-				5BB43CAE2796A15300A20693 /* ThreeCardGameTests.xctest */,
-				5BB43CB92796A15300A20693 /* ThreeCardGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,24 +82,6 @@
 				5B16292D279B22DA00491A7B /* GameMenuViewController.swift */,
 			);
 			path = ThreeCardGame;
-			sourceTree = "<group>";
-		};
-		5BB43CB12796A15300A20693 /* ThreeCardGameTests */ = {
-			isa = PBXGroup;
-			children = (
-				5BB43CB22796A15300A20693 /* ThreeCardGameTests.swift */,
-				5BB43CB42796A15300A20693 /* Info.plist */,
-			);
-			path = ThreeCardGameTests;
-			sourceTree = "<group>";
-		};
-		5BB43CBC2796A15300A20693 /* ThreeCardGameUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5BB43CBD2796A15300A20693 /* ThreeCardGameUITests.swift */,
-				5BB43CBF2796A15300A20693 /* Info.plist */,
-			);
-			path = ThreeCardGameUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,42 +104,6 @@
 			productReference = 5BB43C982796A14300A20693 /* ThreeCardGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5BB43CAD2796A15300A20693 /* ThreeCardGameTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5BB43CC52796A15300A20693 /* Build configuration list for PBXNativeTarget "ThreeCardGameTests" */;
-			buildPhases = (
-				5BB43CAA2796A15300A20693 /* Sources */,
-				5BB43CAB2796A15300A20693 /* Frameworks */,
-				5BB43CAC2796A15300A20693 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5BB43CB02796A15300A20693 /* PBXTargetDependency */,
-			);
-			name = ThreeCardGameTests;
-			productName = ThreeCardGameTests;
-			productReference = 5BB43CAE2796A15300A20693 /* ThreeCardGameTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5BB43CB82796A15300A20693 /* ThreeCardGameUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5BB43CC82796A15300A20693 /* Build configuration list for PBXNativeTarget "ThreeCardGameUITests" */;
-			buildPhases = (
-				5BB43CB52796A15300A20693 /* Sources */,
-				5BB43CB62796A15300A20693 /* Frameworks */,
-				5BB43CB72796A15300A20693 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5BB43CBB2796A15300A20693 /* PBXTargetDependency */,
-			);
-			name = ThreeCardGameUITests;
-			productName = ThreeCardGameUITests;
-			productReference = 5BB43CB92796A15300A20693 /* ThreeCardGameUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,14 +115,6 @@
 				TargetAttributes = {
 					5BB43C972796A14300A20693 = {
 						CreatedOnToolsVersion = 12.4;
-					};
-					5BB43CAD2796A15300A20693 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 5BB43C972796A14300A20693;
-					};
-					5BB43CB82796A15300A20693 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 5BB43C972796A14300A20693;
 					};
 				};
 			};
@@ -239,8 +132,6 @@
 			projectRoot = "";
 			targets = (
 				5BB43C972796A14300A20693 /* ThreeCardGame */,
-				5BB43CAD2796A15300A20693 /* ThreeCardGameTests */,
-				5BB43CB82796A15300A20693 /* ThreeCardGameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,22 +149,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BB43CAC2796A15300A20693 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B162978279B2D7600491A7B /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BB43CB72796A15300A20693 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B16297C279B2D7700491A7B /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -288,36 +163,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BB43CAA2796A15300A20693 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BB43CB32796A15300A20693 /* ThreeCardGameTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BB43CB52796A15300A20693 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BB43CBE2796A15300A20693 /* ThreeCardGameUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5BB43CB02796A15300A20693 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5BB43C972796A14300A20693 /* ThreeCardGame */;
-			targetProxy = 5BB43CAF2796A15300A20693 /* PBXContainerItemProxy */;
-		};
-		5BB43CBB2796A15300A20693 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5BB43C972796A14300A20693 /* ThreeCardGame */;
-			targetProxy = 5BB43CBA2796A15300A20693 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5BB43CA12796A14300A20693 /* Main.storyboard */ = {
@@ -491,86 +337,6 @@
 			};
 			name = Release;
 		};
-		5BB43CC62796A15300A20693 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ThreeCardGameTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ThreeCardGameTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeCardGame.app/ThreeCardGame";
-			};
-			name = Debug;
-		};
-		5BB43CC72796A15300A20693 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ThreeCardGameTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ThreeCardGameTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeCardGame.app/ThreeCardGame";
-			};
-			name = Release;
-		};
-		5BB43CC92796A15300A20693 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ThreeCardGameUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ThreeCardGameUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ThreeCardGame;
-			};
-			name = Debug;
-		};
-		5BB43CCA2796A15300A20693 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ThreeCardGameUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.martin.ThreeCardGameUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ThreeCardGame;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,24 +354,6 @@
 			buildConfigurations = (
 				5BB43CC32796A15300A20693 /* Debug */,
 				5BB43CC42796A15300A20693 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5BB43CC52796A15300A20693 /* Build configuration list for PBXNativeTarget "ThreeCardGameTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5BB43CC62796A15300A20693 /* Debug */,
-				5BB43CC72796A15300A20693 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5BB43CC82796A15300A20693 /* Build configuration list for PBXNativeTarget "ThreeCardGameUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5BB43CC92796A15300A20693 /* Debug */,
-				5BB43CCA2796A15300A20693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
